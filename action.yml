@@ -1,0 +1,16 @@
+name: 'Filename Match'
+description: 'Match and output files by matching their name against a Regular Expression'
+inputs:
+  github-token:
+    description: 'GitHub Token'
+    required: true
+  match:
+    description: 'File name'
+  before:
+    description: 'File name, before'
+outputs:
+  files: # id of output
+    description: 'Files that have been promoted'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

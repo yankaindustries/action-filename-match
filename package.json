@@ -1,0 +1,22 @@
+{
+  "name": "action-filename-match",
+  "version": "0.0.1",
+  "description": "GitHub Action to match and output files by matching their name against a Regular Expression",
+  "main": "dist/index.js",
+  "repository": "git@github.com:jstnjns/action-filename-match.git",
+  "author": "justinjones53@gmail.com <justinjones53@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.21.0",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "build": "ncc build index.js",
+    "dev": "ncc build index.js -w"
+  }
+}
