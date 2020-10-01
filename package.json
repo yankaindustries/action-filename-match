@@ -7,7 +7,7 @@
   "author": "justinjones53@gmail.com <justinjones53@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.0",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^2.0.0",
     "lodash": "^4.17.15"
   },
